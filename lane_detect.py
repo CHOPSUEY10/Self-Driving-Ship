@@ -26,7 +26,7 @@ stride, names = model.stride, model.names
 #model.warmup(imgsz=(1, 3, 640, 640))  # optional
 
 #image = [x for x in glob.glob("D:/RISET/buoys.v1i.coco/train/*.jpg")]
-path = 'D:\RISET\Self_Driving_Ship\Capture\\testing.mp4'
+path = '.\Capture\\testing.mp4'
 image = cv.VideoCapture(path)  
 
 
