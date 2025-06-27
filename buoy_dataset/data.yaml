@@ -1,0 +1,13 @@
+train: ..\train\images
+val: ..\valid\images
+test: ..\test\images
+
+nc: 2
+names: ['red_buoy','green buoy']
+
+roboflow:
+  workspace: deteksi-objek-gouge
+  project: buoy_detection_2021-vqg50
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deteksi-objek-gouge/buoy_detection_2021-vqg50/dataset/1
